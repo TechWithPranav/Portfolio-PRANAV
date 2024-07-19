@@ -32,15 +32,17 @@ const Navbar = () => {
               <li
                 key={obj.id}
                 className={`${
-                  active ===obj.title
-                  ? "text-white":"text-secondary"} 
+                  active ===obj.title ? "text-white":"text-secondary"} 
                   hover:text-white text-[18px] font-medium cursor-pointer`} 
                   onclick={()=> setActive(obj.title)}
               >
-                <a href="{`#${obj.id}`}">{obj.title}</a>
+                <a href={`#${obj.id}`}>{obj.title}</a>
               </li>
             ))}
           </ul>
+
+
+
 
 
            {/* for menu functionality when screen size is too small..........  */}
@@ -49,7 +51,28 @@ const Navbar = () => {
               onClick={() => setToggle(!toggle) }
               />
 
+           
+
+            <div className={`${!toggle ? "hidden":"flex"} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl `}>
+            <ul className='list-none  flex justify-end items-start flex-col gap-4'>
+            {navLinks.map((obj)=>(
+              <li
+                key={obj.id}
+                className={`font-poppins font-medium cursor-poiner text-[16px]  ${
+                  active ===obj.title ? "text-white":"text-secondary"} `} 
+                  onclick={()=> {
+                    setToggle(!toggle);
+                    setActive(obj.title)
+                  }}
+              >
+                <a href={`#${obj.id}`}>{obj.title}</a>
+              </li>
+            ))}
+          </ul>
             </div>
+            </div>
+
+
 
 
 
