@@ -34,7 +34,7 @@ const Navbar = () => {
                 className={`${
                   active ===obj.title ? "text-white":"text-secondary"} 
                   hover:text-white text-[18px] font-medium cursor-pointer`} 
-                  onclick={()=> setActive(obj.title)}
+                  onClick={()=> setActive(obj.title)}
               >
                 <a href={`#${obj.id}`}>{obj.title}</a>
               </li>
@@ -60,7 +60,7 @@ const Navbar = () => {
                 key={obj.id}
                 className={`font-poppins font-medium cursor-poiner text-[16px]  ${
                   active ===obj.title ? "text-white":"text-secondary"} `} 
-                  onclick={()=> {
+                  onClick={()=> {
                     setToggle(!toggle);
                     setActive(obj.title)
                   }}
