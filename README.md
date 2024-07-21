@@ -45,3 +45,10 @@ Currently, two official plugins are available:
 
 4) Run the server.......................
     -npm run dev
+
+
+5) Important takeways - Note : .......................
+    - suppose we have folder hoc then we have various componets like - abt,home,text like this so each jsc component will export something right
+    - so what we can do we can create index.js file in this and from that fill we will export all this compoenents
+    - so whenver we want to use compoenent we will only import folder and we can all exported compoenents
+    - consider example of hoc folder to understand more

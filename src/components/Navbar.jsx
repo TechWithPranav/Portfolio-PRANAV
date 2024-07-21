@@ -27,7 +27,7 @@ const Navbar = () => {
             <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
             <p className='text-white text-[18px] font-bold curser-pointer'>Pranav Kolhe</p>
           </Link>
-          <ul className='list-none hidden sm:flex flew-row gap-10'>
+          <ul className='list-none hidden sm:hidden lg:flex flew-row gap-10'>
             {navLinks.map((obj)=>(
               <li
                 key={obj.id}
@@ -46,7 +46,7 @@ const Navbar = () => {
 
 
            {/* for menu functionality when screen size is too small..........  */}
-            <div className='sm:hidden flex flex-1 justify-end items-center'>
+            <div className='lg:hidden flex flex-1 justify-end items-center'>
               <img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] object-contain cursor-pointer' 
               onClick={() => setToggle(!toggle) }
               />

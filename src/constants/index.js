@@ -23,16 +23,25 @@ import {
     jobit,
     tripguide,
     threejs,
+    java,
   } from "../assets";
   
   export const navLinks = [
     {
-      id: "about",
-      title: "About",
+      id:"home",
+      title:"Home"
     },
     {
-      id: "work",
-      title: "Work",
+      id: "about",
+      title: "About"
+    },
+    {
+      id: "projects",
+      title: "Projects"
+    },
+    {
+id:"achievements",
+title:"Achievements"
     },
     {
       id: "contact",
@@ -46,15 +55,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "UI/UX Designer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Data Analyst",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Cloud Engineer",
       icon: creator,
     },
   ];
@@ -96,10 +105,10 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
@@ -112,7 +121,18 @@ import {
       name: "docker",
       icon: docker,
     },
+
+    {
+      name: "java",
+      icon: java,
+    },
   ];
+
+
+
+  // Tech_stack_Lang = [
+
+  // ]
   
   const experiences = [
     {
