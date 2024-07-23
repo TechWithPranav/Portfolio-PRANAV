@@ -6,7 +6,7 @@ import {styles} from "../styles";
 
 import { div } from 'three/examples/jsm/nodes/Nodes.js';
 import {IconCloudDemo} from "../components/magicui/icon_cloud_demo"
-import {technologies} from "../constants"
+import {Tech_stack_Lang,Tech_stack_framework,Tech_stack_DevOps,Tech_stack_UI_UX} from "../constants"
 
 
 const Tech = () => {
@@ -21,28 +21,38 @@ const Tech = () => {
 
 
           <div>
-            <h4 className='text-[26px] font-bold mb-4 mt-4'>Languages</h4>
+            <h4 className='text-[30px] font-bold mb-4 mt-4'>Languages</h4>
             <div className='flex justify-start flex-wrap'>
-              {technologies.map((techno)=>(
-                <img src={techno.icon} alt="" srcset="" className='w-[6%]' />
+              {Tech_stack_Lang.map((techno)=>(
+                <img src={techno.icon} alt=""  key={techno.name} className='w-[6%] mr-4' />
               ))}
             </div>
           </div>
 
           <div>
-            <h4 className='text-[26px] font-bold mb-4 mt-4'>Frameworks</h4>
+            <h4 className='text-[30px] font-bold mb-4 mt-4'>Frameworks</h4>
             <div className='flex justify-start flex-wrap'>
-              {technologies.map((techno)=>(
-                <img src={techno.icon} alt="" srcset="" className='w-[6%]' />
+              {Tech_stack_framework.map((techno)=>(
+                <img src={techno.icon} alt={techno.name} key={techno.name} className='w-[6%] mr-4' />
               ))}
             </div>
           </div>
 
           <div>
-            <h4 className='text-[26px] font-bold mb-4 mt-4'>DevOps</h4>
+            <h4 className='text-[30px] font-bold mb-4 mt-4'>DevOps</h4>
             <div className='flex justify-start flex-wrap'>
-              {technologies.map((techno)=>(
-                <img src={techno.icon} alt="" srcset="" className='w-[6%]' />
+              {Tech_stack_DevOps.map((techno)=>(
+                <img src={techno.icon} alt=""  key={techno.name} className='w-[6%] mr-4' />
+              ))}
+            </div>
+          </div>
+
+
+          <div>
+            <h4 className='text-[30px] font-bold mb-4 mt-4'>UI/UX</h4>
+            <div className='flex justify-start flex-wrap'>
+              {Tech_stack_UI_UX.map((techno)=>(
+                <img src={techno.icon} alt=""  key={techno.name} className='w-[5.8%] mr-4' />
               ))}
             </div>
           </div>
@@ -51,7 +61,7 @@ const Tech = () => {
 
 
         </div>
-        <div className='w-[60%] hidden md:block'>   <IconCloudDemo /></div>
+        <div className='w-[80%] h-[500px] hidden md:block'>   <IconCloudDemo /></div>
    
       </div>
     </div>

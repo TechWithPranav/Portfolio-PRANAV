@@ -3,18 +3,37 @@ import {
     backend,
     creator,
     web,
-    javascript,
-    typescript,
+
+
+
+    java,
+    python,
+    js,
+    C,
+    Cpp,
     html,
     css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
+    sql,
+  
+  
     git,
+    github,
+    ubuntu,
+    firebase,
+    aws,
+    postman,
+  
+    react, 
+    flask,
+    nodejs,
+    bootstrap,
+    tailwind,
+  
     figma,
-    docker,
+    mui,
+  
+
+
     meta,
     starbucks,
     tesla,
@@ -22,8 +41,9 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
-    java,
+  
+
+
   } from "../assets";
   
   export const navLinks = [
@@ -68,72 +88,108 @@ title:"Achievements"
     },
   ];
   
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    // {
-    //   name: "Three JS",
-    //   icon: threejs,
-    // },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+  // const technologies = [
+  //   {
+  //     name: "HTML 5",
+  //     icon: html,
+  //   },
+  //   {
+  //     name: "CSS 3",
+  //     icon: css,
+  //   },
+  //   {
+  //     name: "JavaScript",
+  //     icon: javascript,
+  //   },
+  //   {
+  //     name: "TypeScript",
+  //     icon: typescript,
+  //   },
+  //   {
+  //     name: "React JS",
+  //     icon: reactjs,
+  //   },
+  //   {
+  //     name: "Redux Toolkit",
+  //     icon: redux,
+  //   },
+  //   {
+  //     name: "Tailwind CSS",
+  //     icon: tailwind,
+  //   },
+  //   {
+  //     name: "Node JS",
+  //     icon: nodejs,
+  //   },
+  //   {
+  //     name: "MongoDB",
+  //     icon: mongodb,
+  //   },
+  //   // {
+  //   //   name: "Three JS",
+  //   //   icon: threejs,
+  //   // },
+  //   {
+  //     name: "git",
+  //     icon: git,
+  //   },
+  //   {
+  //     name: "figma",
+  //     icon: figma,
+  //   },
+  //   {
+  //     name: "docker",
+  //     icon: docker,
+  //   },
 
-    {
-      name: "java",
-      icon: java,
-    },
+  //   {
+  //     name: "java",
+  //     icon: java,
+  //   },
+  // ];
+
+
+
+ const Tech_stack_Lang = [
+{name:"java",icon:java},
+{name:"python",icon:python},
+{name:"js",icon:js},
+{name:"C",icon:C},
+{name:"Cpp",icon:Cpp},
+{name:"html",icon:html},
+{name:"css",icon:css},
+{name:"sql",icon:sql},
+
   ];
 
 
-
-  // Tech_stack_Lang = [
-
-  // ]
+  const Tech_stack_framework = [
+    {name:"react",icon:react},
+    {name:"flask",icon:flask},
+    {name:"nodejs",icon:nodejs},
+    {name:"bootstrap",icon:bootstrap},
+    {name:"tailwind",icon:tailwind},
+      ];
   
+      const  Tech_stack_DevOps = [
+        {name:"git",icon:git},
+        {name:"github",icon:github},
+        {name:"ubuntu",icon:ubuntu},
+        {name:"firebase",icon:firebase},
+        {name:"aws",icon:aws},
+        {name:"postman",icon:postman},
+          ];
+
+          
+          const  Tech_stack_UI_UX = [
+            {name:"figma",icon:figma},
+            {name:"mui",icon:mui},
+           
+              ];
+    
+
+
+
   const experiences = [
     {
       title: "React.js Developer",
@@ -282,4 +338,4 @@ title:"Achievements"
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, Tech_stack_UI_UX,Tech_stack_DevOps,Tech_stack_framework,Tech_stack_Lang, experiences, testimonials, projects };
