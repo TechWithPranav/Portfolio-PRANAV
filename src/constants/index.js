@@ -41,6 +41,10 @@ import {
     carrent,
     jobit,
     tripguide,
+
+    viit,
+    gpp,
+    pmhs,
   
 
 
@@ -245,30 +249,26 @@ title:"Achievements"
     },
   ];
   
-  const testimonials = [
+  const edu = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      info:
+        "Vishwakarma Institute of Information Technology",
+      name: "B.Tech",
+      designation: "CGPA: 8.5 of 10",
+      image: viit,},
+    {
+      info:
+        "Government Polytechnic Pune &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp",
+      name: "Diploma",
+      designation: "Percentage: 92% of 100%",
+      image: gpp,
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      info:
+        "Pius Memorial High School &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp",
+      name: "Class X",
+      designation: "92% of 100%",
+      image: pmhs,
     },
   ];
   
@@ -333,9 +333,9 @@ title:"Achievements"
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: carrent,
       source_code_link: "https://github.com/",
     },
   ];
   
-  export { services, Tech_stack_UI_UX,Tech_stack_DevOps,Tech_stack_framework,Tech_stack_Lang, experiences, testimonials, projects };
+  export { services, Tech_stack_UI_UX,Tech_stack_DevOps,Tech_stack_framework,Tech_stack_Lang, experiences, edu, projects };

@@ -54,6 +54,12 @@ import mui from "./tech/New_icons/UIUX/MUI.png";
 
 
 
+// education .................
+import viit from "./education/viit.png"
+import gpp from "./education/gpp.png"
+import pmhs from "./education/pmhs.png"
+
+
 
 
 
@@ -114,5 +120,9 @@ meta,
   carrent,
   jobit,
   tripguide,
+
+  viit,gpp,pmhs,
+
+  
  
 };
