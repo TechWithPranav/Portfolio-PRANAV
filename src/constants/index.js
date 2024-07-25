@@ -34,10 +34,12 @@ import {
   
 
 
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    Deavnet_solutions,
+    ibmskills,
+    i2ic,
+    
+
+
     carrent,
     jobit,
     tripguide,
@@ -60,12 +62,12 @@ import {
       title: "About"
     },
     {
-      id: "projects",
+      id: "works",
       title: "Projects"
     },
     {
-id:"achievements",
-title:"Achievements"
+        id:"achievements",
+        title:"Achievements"
     },
     {
       id: "contact",
@@ -196,59 +198,51 @@ title:"Achievements"
 
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Backend Developer",
+      company_name: "Deavnet Solutions",
+      icon: Deavnet_solutions,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2022 - August 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and implemented various backend modules, enhancing the functionality and performance of existing systems.",
+        "Utilized Postman for thorough testing and validation of APIs, ensuring reliability and efficiency in data communication between systems.",
+        "Gained exposure to C# and MVC architecture, contributing to the structured development and maintenance of web applications.",
+        "Worked with SQL Server, including database connection management and optimization for robust data storage solutions",
+        "Collaborated with cross-functional teams to identify and resolve backend issues, improving overall project outcomes and system stability",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Data Analytics Micro-Internship",
+      company_name: "IBM SkillsBuild",
+      icon: ibmskills,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Nov 6th 2023 - Nov 20th 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Learned and applied data cleaning and preprocessing techniques to prepare datasets for analysis.",
+        "Explored Power BI and Tableau, using these tools to create interactive and insightful dashboards.",
+        "Worked on small projects that involved practical applications of data analytics concepts, showcasing the ability to derive meaningful insights from data.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Tech Member",
+      company_name: "I2IC",
+      icon: i2ic,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Feb 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Spearheaded various technical activities and workshops aimed at enhancing student skills and employability.",
+        "Successfully coordinated over 10 mock drives and alumni meets, contributing to a 40% increase in student placement success.",
+        "Engaged in collaborative projects with alumni and industry experts to provide students with real-world insights and networking opportunities.",
+        " Provided mentorship and career guidance to students, helping them navigate their career paths and achieve their professional goals.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
+
+
+
+
   const edu = [
     {
       info:

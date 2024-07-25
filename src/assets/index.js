@@ -67,10 +67,9 @@ import pmhs from "./education/pmhs.png"
 
 
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import Deavnet_solutions from "./company/Deavnet_solutions.png";
+import ibmskills from "./company/ibmskills.jpeg";
+import i2ic from "./company/i2ic.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -113,10 +112,12 @@ export {
   mui,
 
 
-meta,
-  shopify,
-  starbucks,
-  tesla,
+  Deavnet_solutions,
+  ibmskills,
+  i2ic,
+ 
+
+
   carrent,
   jobit,
   tripguide,

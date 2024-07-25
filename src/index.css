@@ -12,6 +12,9 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .hash-span {
   margin-top: -100px;
