@@ -7,6 +7,7 @@ import Experience from './Experience';
 import Works from './Works';
 import Education from './Education';
 import Contact from './Contact';
+import Achievements from './Achievements';
 
 export {
   Hero,
@@ -20,5 +21,6 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Achievements,
 }

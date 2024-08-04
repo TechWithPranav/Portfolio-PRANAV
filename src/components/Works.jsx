@@ -33,13 +33,13 @@ return(
 
 
 {/* //............. github at top right corner */}
-      {/* <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+      <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
         <div onClick={()=>window.open(source_code_link,"_blank")} 
         className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
 
           <img src={github} alt="source_code" className='w-1/2.5 h-1/2.5 object-contain'/>
         </div>
-      </div> */}
+      </div>
 
       
       {/* description ....................... */}
@@ -101,4 +101,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works,"");
+export default SectionWrapper(Works,"works");

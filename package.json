@@ -33,6 +33,7 @@
     "react-icon-cloud": "^4.1.4",
     "react-router-dom": "^6.25.0",
     "react-router-hash-link": "^2.4.3",
+    "react-scroll": "^1.9.0",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
     "tailwind-merge": "^2.4.0",

@@ -7,7 +7,7 @@ import { ShimmerButtonDemo } from "../components/magicui/Shimmer_demo"
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[630px] sm:h-[550px] xl:h-[500px] lg:h-[600px] mx-auto lg:top-10 ">
+    <section className="relative w-full h-[630px] sm:h-[550px] xl:h-[500px] lg:h-[600px] mx-auto lg:top-10 " id='home'> 
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />

@@ -74,6 +74,10 @@ import i2ic from "./company/i2ic.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Mental_health from "./Mental_health2.gif";
+import college_app from "./college_app.png";
+import lost_found from "./lost_found.png";
+
 
 export {
   logo,
@@ -119,8 +123,11 @@ export {
 
 
   carrent,
+  Mental_health,
   jobit,
   tripguide,
+  college_app,
+  lost_found,
 
   viit,gpp,pmhs,
 

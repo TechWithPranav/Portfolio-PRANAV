@@ -41,8 +41,11 @@ import {
 
 
     carrent,
+    Mental_health,
     jobit,
     tripguide,
+    lost_found,
+    college_app,
 
     viit,
     gpp,
@@ -268,67 +271,127 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "MyMental Hero",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "MyMental Hero is a mental health platform that uses AI and doctor insights to offer instant DSS. It streamlines operations, boosts user satisfaction through goal tracking and multilingual reports,community support, and reduces workload with optimized appointment management.",
       tags: [
         {
-          name: "react",
+          name: "Flask",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Html",
           color: "pink-text-gradient",
         },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "BootStrap",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Machine Learning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Git",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Github",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Smtp",
+          color: "orange-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: Mental_health,
+      source_code_link: "https://github.com/TechWithPranav/MyHealth-Hero-Empowering-Your-Health-Journey-with-Expert-Decision-Support/",
     },
     {
-      name: "Job IT",
+      name: "Lost And Found",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Lost and Found is a platform that ensures secure user authentication and encrypted data, streamlines item reporting and matching to speed up retrieval times, and provides automated email alerts for updates. It also enhances collaboration with authorities to significantly increase the success rate of returned items.",
       tags: [
         {
-          name: "react",
+          name: "Flask",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Html",
           color: "pink-text-gradient",
         },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "BootStrap",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Git",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Github",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Smtp",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "MUI",
+          color: "green-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: lost_found,
+      source_code_link: "https://github.com/TechWithPranav/Lost-Found/", 
     },
     {
-      name: "Trip Guide",
+      name: "CO:IT",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "CO:IT is an app designed to enhance communication among over 800 students and faculty. It features a Notice Board, Notes Section, and Community Chatroom to improve access to announcements and foster collaboration. The app also streamlines communication and promotes cross-year mentorship.",
       tags: [
         {
-          name: "nextjs",
+          name: "Android",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Java",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Firebase",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MUI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Git",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Github",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: college_app,
+      source_code_link: "https://github.com/TechWithPranav/Co-IT-Android-App/",
     },
   ];
   
