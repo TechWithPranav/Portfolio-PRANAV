@@ -71,7 +71,7 @@ const Contact = () => {
   }
 
   return (
-    <div className={`xl-mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
+    <div className={`xl-mt-5 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden mb-20`}>
       <motion.div
         variants={slideIn("left","tween",0.2,1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
@@ -113,7 +113,7 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
-              rows={7}
+              rows={5}
               name='message'
               value={form.message}
               onChange={handleChange}
@@ -125,10 +125,10 @@ const Contact = () => {
 
         {/* // buttom to handle onSubmit Event........... */}
         <button
-          type='submit'
-          className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary cursor-pointer'
-        >
-          {loading ? "Sending...":"Send"}
+      type="submit"
+      className="relative z-30 bg-tertiary px-5 py-3 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary cursor-pointer hover:bg-tertiary-dark transition duration-300"
+    >
+          {loading ? "Sending":"Send"}
         </button>
         </form>
       </motion.div>

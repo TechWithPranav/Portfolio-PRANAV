@@ -5,6 +5,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import construction from "./construction.gif";
 
 
 
@@ -87,6 +88,7 @@ export {
   web,
   menu,
   close,
+  construction,
 
 
   java,

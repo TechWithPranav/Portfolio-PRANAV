@@ -5,25 +5,54 @@ import { Dock, DockIcon } from "../magicui/Dock";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
+
 export function DockDemo() {
+
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+    const targetElement = document.querySelector('#contact');
+    if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+};
   return (
     <div className="relative">
       <Dock magnification={60} distance={100}>
-        <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-          <Icons.gitHub className="size-full" />
+          <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
+        <a href="https://github.com/TechWithPranav/" target="_blank" rel="noopener noreferrer">
+            <Icons.gitHub className="size-full" />
+        </a>
+          </DockIcon>
+
+
+          <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
+        <a href="https://www.linkedin.com/in/pranav-kolhe-653816205/" target="_blank" rel="noopener noreferrer">
+            <Icons.linkedin className="size-full" />
+        </a>
+          </DockIcon>
+
+
+          <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
+        <a href="https://www.instagram.com/pranav__kolhe/" target="_blank" rel="noopener noreferrer">
+            <Icons.insta className="size-full" />
+        </a>
+          </DockIcon>
+
+
+          <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
+        <a href="https://x.com/Pranav_Kolhe_" target="_blank" rel="noopener noreferrer">
+            <Icons.x className="size-full" />
+        </a>
+          </DockIcon>
+
+
+          <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
+            <a href="#contact" onClick={handleScroll}>
+                <Icons.email className="size-full" />
+            </a>
         </DockIcon>
-        <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-          <Icons.linkedin className="size-full" />
-        </DockIcon>
-        <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-          <Icons.insta className="size-full" />
-        </DockIcon>
-        <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-          <Icons.x className="size-full" />
-        </DockIcon>
-        <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-          <Icons.email className="size-full" />
-        </DockIcon>
+
+
       </Dock>
     </div>
   );

@@ -32,7 +32,7 @@ const Hero = () => {
 
       {/* //Computer 3d Model........................ */}
       <div>
-      <div className="relative w-full h-[260px] top-[350px] flex justify-center items-center align-middle sm:h-[300px] sm:top-[300px] md:top-[300px] lg:h-[350px]  xl:h-[290px] xl:top-[139px] xl:left-[810px] xl:w-[500px] 2xl:left-[1000px] ">
+      <div className="relative w-full h-[260px] top-[400px] flex justify-center items-center align-middle xs:top[320px] sm:h-[300px] sm:top-[300px] md:top-[300px] lg:h-[350px]  xl:h-[290px] xl:top-[139px] xl:left-[810px] xl:w-[500px] 2xl:left-[1000px] ">
         
         <ComputersCanvas />
         </div>

@@ -1,9 +1,10 @@
 import React from 'react';
+import construction from '../assets/construction.gif'
 
 const Achievements = () => {
   return (
-    <div id="achievements">
-      <h1 className="text-red-600">Hello World</h1>
+    <div id="achievements" className='border border-red-600  max-w-sm mx-auto flex justify-center mt-14' >
+      <img src={construction} className="w-full h-auto max-w-full" />
     </div>
   );
 };
